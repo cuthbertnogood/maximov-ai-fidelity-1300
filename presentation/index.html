@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Верность машины поручению — не гарантия</title>
+<style>
+  :root { --bg:#12151c; --ink:#f4f1ea; --muted:#9aa3b2; --sand:#e8c39e; --line:#8eb6d9; --card:#1c2430; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:#0c0e13; color:var(--ink); font-family: "Segoe UI", sans-serif; }
+  .deck { height:100vh; display:flex; align-items:center; justify-content:center; }
+  section { display:none; width:min(1100px, 94vw); min-height:78vh; background:var(--bg); border-left:6px solid var(--sand); padding:48px 56px; }
+  section.on { display:block; }
+  h1 { font-family: Georgia, serif; font-weight:500; font-size:46px; line-height:1.15; margin:12px 0 18px; }
+  h2 { font-family: Georgia, serif; font-weight:500; font-size:32px; margin:0 0 22px; }
+  p, li { font-size:20px; line-height:1.45; }
+  .kicker { color:var(--sand); letter-spacing:.12em; font-size:13px; }
+  .muted { color:var(--muted); }
+  q { display:block; font-family: Georgia, serif; font-size:26px; line-height:1.35; background:var(--card); padding:22px 26px; }
+  .grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; }
+  .card { background:var(--card); padding:18px 18px 8px; min-height:220px; }
+  .card b { color:var(--sand); display:block; margin-bottom:8px; font-weight:600; }
+  ol { padding-left:22px; }
+  nav { position:fixed; bottom:18px; right:22px; color:var(--muted); font-size:14px; }
+  button { background:transparent; color:var(--ink); border:1px solid #3d4a5c; padding:6px 10px; margin-left:8px; }
+</style>
+</head>
+<body>
+<div class="deck">
+<section class="on">
+  <div class="kicker">РАЗБОР ВЫСКАЗЫВАНИЯ</div>
+  <h1>Верность машины поручению — не гарантия</h1>
+  <p class="muted">Юрий Максимов, «Максимов | ЗАПИСКИ», пост 1300.<br>Форум «Цифровые решения», 7 октября 2026.</p>
+</section>
+<section>
+  <h2>Высказывание</h2>
+  <q>С приходом ИИ обновляется природа безопасности: появляется гарантия верности машины поручению и замыслу человека, который, в свою очередь, принимает ответственность за результат ее деятельности.</q>
+  <p class="muted">Подпись поста, дословно. Ролик 3:11 в превью недоступен. Та же речь в тот же день процитирована РИА Новости.</p>
+</section>
+<section>
+  <h2>Что сказано на сессии</h2>
+  <ol>
+    <li>Запреты не работают: агент начинает тупить и не делает работу.</li>
+    <li>Нужна верность поручению и разумные границы.</li>
+    <li>Смотреть должна машина: банк, атака, детектор. Наверху человек.</li>
+    <li>Вину на модель не снять. Ни государству, ни бизнесу.</li>
+  </ol>
+</section>
+<section>
+  <h2>Три части утверждения</h2>
+  <div class="grid">
+    <div class="card"><b>Описание</b><p>Природа безопасности меняется. Верно как сдвиг с запрета на соответствие задаче.</p></div>
+    <div class="card"><b>Техника</b><p>Гарантия верности. Слишком сильно: цель, не свойство модели.</p></div>
+    <div class="card"><b>Норма</b><p>Человек отвечает за результат. Самый крепкий тезис.</p></div>
+  </div>
+</section>
+<section>
+  <h2>Где слово сильнее факта</h2>
+  <ul>
+    <li>Гарантии нет, есть остаточный риск.</li>
+    <li>Замысел не формализован, модель его достраивает.</li>
+    <li>Агент может быть верен отравленному поручению.</li>
+    <li>Критик из той же ткани ловит не всё.</li>
+    <li>Человек наверху без порога — кнопка «согласовано».</li>
+  </ul>
+</section>
+<section>
+  <h2>Проще</h2>
+  <p>Стажёру нельзя сказать только «не трогай кассу» — он сядет. Ему говорят задачу и края. Второй смотрит, не вышел ли первый за края. Если платёж ушёл не туда, виноват тот, кто ставил предел.</p>
+  <p class="muted">Второй стажёр снижает риск. Он не делает первого безошибочным.</p>
+</section>
+<section>
+  <h2>План</h2>
+  <ol>
+    <li>Необратимое наружу — только со вторым подтверждением.</li>
+    <li>Карточка поручения вместо запретного списка внутри задачи.</li>
+    <li>Критик на шаг, человек на стоп.</li>
+    <li>Петля атаки только в песочнице.</li>
+    <li>Имя владельца в журнале.</li>
+    <li>Мерить выход за карточку и ложные остановки.</li>
+  </ol>
+</section>
+<section>
+  <h2>Вывод</h2>
+  <p>Менять объект контроля с запрета на верность поручению — правильно.<br>Называть это гарантией — рано.<br>Ответственность человека пишется в контур, не в подпись к видео.</p>
+  <p class="muted">t.me/yury/1300 · ria.ru/20261007/ii-2122870824.html</p>
+</section>
+</div>
+<nav><span id="n">1 / 8</span><button id="p">Назад</button><button id="x">Дальше</button></nav>
+<script>
+const slides=[...document.querySelectorAll('section')];
+let i=0;
+function show(k){ i=(k+slides.length)%slides.length; slides.forEach(s=>s.classList.remove('on')); slides[i].classList.add('on'); document.getElementById('n').textContent=(i+1)+' / '+slides.length; }
+document.getElementById('p').onclick=()=>show(i-1);
+document.getElementById('x').onclick=()=>show(i+1);
+document.onkeydown=e=>{ if(e.key==='ArrowRight') show(i+1); if(e.key==='ArrowLeft') show(i-1); };
+</script>
+</body>
+</html>
