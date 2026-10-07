@@ -1,40 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" font-family="Segoe UI, Arial, sans-serif">
-  <rect width="1100" height="760" fill="#12151c"/>
-  <text x="48" y="46" fill="#f4f1ea" font-size="26" font-weight="650">Верность поручению, не гарантия</text>
-  <text x="48" y="74" fill="#9aa3b2" font-size="14">Пост t.me/yury/1300 и речь на форуме «Цифровые решения», 7 октября 2026</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="1100" height="640" fill="#ffffff"/>
+  <text x="40" y="42" fill="#1c1c1c" font-size="24">Схема: верность поручению, не гарантия</text>
+  <text x="40" y="68" fill="#5e6670" font-size="14">Пост t.me/yury/1300, форум «Цифровые решения», 7 октября 2026</text>
 
-  <rect x="370" y="110" width="360" height="78" rx="10" fill="#1c2430" stroke="#e8c39e"/>
-  <text x="550" y="140" fill="#f4f1ea" font-size="16" text-anchor="middle">Человек</text>
-  <text x="550" y="164" fill="#e8c39e" font-size="13" text-anchor="middle">замысел · ответственность за результат</text>
+  <rect x="370" y="100" width="360" height="64" rx="6" fill="#f6f4f0" stroke="#e4dfd6"/>
+  <text x="550" y="126" fill="#1c1c1c" font-size="16" text-anchor="middle">Человек</text>
+  <text x="550" y="148" fill="#5e6670" font-size="13" text-anchor="middle">замысел и ответственность</text>
 
-  <rect x="370" y="230" width="360" height="78" rx="10" fill="#1c2430" stroke="#8eb6d9"/>
-  <text x="550" y="260" fill="#f4f1ea" font-size="16" text-anchor="middle">Карточка поручения</text>
-  <text x="550" y="284" fill="#8eb6d9" font-size="13" text-anchor="middle">цель · край · стоп · инструменты</text>
+  <rect x="370" y="196" width="360" height="64" rx="6" fill="#f6f4f0" stroke="#e4dfd6"/>
+  <text x="550" y="222" fill="#1c1c1c" font-size="16" text-anchor="middle">Карточка поручения</text>
+  <text x="550" y="244" fill="#5e6670" font-size="13" text-anchor="middle">цель, край, стоп, инструменты</text>
 
-  <rect x="80" y="370" width="300" height="92" rx="10" fill="#1c2430" stroke="#d7dbe3"/>
-  <text x="230" y="404" fill="#f4f1ea" font-size="16" text-anchor="middle">Агент-исполнитель</text>
-  <text x="230" y="430" fill="#b7c0cc" font-size="13" text-anchor="middle">делает соразмерное задаче</text>
+  <rect x="70" y="300" width="300" height="64" rx="6" fill="#f6f4f0" stroke="#e4dfd6"/>
+  <text x="220" y="326" fill="#1c1c1c" font-size="16" text-anchor="middle">Исполнитель</text>
+  <text x="220" y="348" fill="#5e6670" font-size="13" text-anchor="middle">соразмерное задаче</text>
 
-  <rect x="720" y="370" width="300" height="92" rx="10" fill="#1c2430" stroke="#d7dbe3"/>
-  <text x="870" y="404" fill="#f4f1ea" font-size="16" text-anchor="middle">Агент-критик</text>
-  <text x="870" y="430" fill="#b7c0cc" font-size="13" text-anchor="middle">человек не читает каждый шаг</text>
+  <rect x="730" y="300" width="300" height="64" rx="6" fill="#f6f4f0" stroke="#e4dfd6"/>
+  <text x="880" y="326" fill="#1c1c1c" font-size="16" text-anchor="middle">Критик</text>
+  <text x="880" y="348" fill="#5e6670" font-size="13" text-anchor="middle">не каждый шаг человеку</text>
 
-  <rect x="80" y="540" width="940" height="150" rx="12" fill="#181e28" stroke="#3d4a5c"/>
-  <text x="110" y="572" fill="#e8c39e" font-size="14">Петля в песочнице, не доказательство</text>
-  <rect x="110" y="592" width="250" height="68" rx="8" fill="#243044"/>
-  <text x="235" y="620" fill="#f4f1ea" font-size="14" text-anchor="middle">ИИ-1 строит цель</text>
-  <text x="235" y="642" fill="#9aa3b2" font-size="12" text-anchor="middle">виртуальный банк</text>
-  <rect x="420" y="592" width="250" height="68" rx="8" fill="#243044"/>
-  <text x="545" y="620" fill="#f4f1ea" font-size="14" text-anchor="middle">ИИ-2 атакует</text>
-  <text x="545" y="642" fill="#9aa3b2" font-size="12" text-anchor="middle">ищет выход за край</text>
-  <rect x="730" y="592" width="250" height="68" rx="8" fill="#243044"/>
-  <text x="855" y="620" fill="#f4f1ea" font-size="14" text-anchor="middle">ИИ-3 ловит атаку</text>
-  <text x="855" y="642" fill="#9aa3b2" font-size="12" text-anchor="middle">учится и обновляет правила</text>
+  <line x1="550" y1="164" x2="550" y2="196" stroke="#1f4b6e" stroke-width="1.4"/>
+  <line x1="470" y1="260" x2="220" y2="300" stroke="#1f4b6e" stroke-width="1.2"/>
+  <line x1="630" y1="260" x2="880" y2="300" stroke="#1f4b6e" stroke-width="1.2"/>
 
-  <path d="M550 188 V230" stroke="#e8c39e" fill="none" stroke-width="1.6"/>
-  <path d="M470 308 V392 H380" stroke="#8eb6d9" fill="none" stroke-width="1.6"/>
-  <path d="M630 308 V392 H720" stroke="#8eb6d9" fill="none" stroke-width="1.6"/>
-  <path d="M380 416 H720" stroke="#6d7888" fill="none" stroke-width="1.4"/>
-  <path d="M870 462 V188 H730" stroke="#e8c39e" fill="none" stroke-width="1.2" stroke-dasharray="4 4"/>
-  <text x="760" y="210" fill="#e8c39e" font-size="12">стоп / необратимый шаг</text>
+  <rect x="40" y="410" width="1020" height="190" rx="6" fill="#ffffff" stroke="#e4dfd6"/>
+  <text x="60" y="442" fill="#1f4b6e" font-size="14">Петля только в песочнице</text>
+  <rect x="60" y="464" width="280" height="64" rx="6" fill="#f6f4f0" stroke="#e4dfd6"/>
+  <text x="200" y="490" fill="#1c1c1c" font-size="15" text-anchor="middle">ИИ-1 строит цель</text>
+  <text x="200" y="512" fill="#5e6670" font-size="12" text-anchor="middle">виртуальный банк</text>
+  <rect x="410" y="464" width="280" height="64" rx="6" fill="#f6f4f0" stroke="#e4dfd6"/>
+  <text x="550" y="490" fill="#1c1c1c" font-size="15" text-anchor="middle">ИИ-2 атакует</text>
+  <text x="550" y="512" fill="#5e6670" font-size="12" text-anchor="middle">ищет выход за край</text>
+  <rect x="760" y="464" width="280" height="64" rx="6" fill="#f6f4f0" stroke="#e4dfd6"/>
+  <text x="900" y="490" fill="#1c1c1c" font-size="15" text-anchor="middle">ИИ-3 ловит атаку</text>
+  <text x="900" y="512" fill="#5e6670" font-size="12" text-anchor="middle">правила обновляет человек</text>
+  <text x="370" y="560" fill="#5e6670" font-size="16" text-anchor="middle">→</text>
+  <text x="720" y="560" fill="#5e6670" font-size="16" text-anchor="middle">→</text>
 </svg>
